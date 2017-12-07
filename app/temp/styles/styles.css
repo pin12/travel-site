@@ -606,6 +606,11 @@ a {
         color: #fff;
     }
 
+.page-section--testimonials {
+        background: url('/assets/images/testimonials-bg.jpg') top center;
+        background-size: cover;
+    }
+
 .headline {
     font-weight: 300;
     font-size: 1.9em;
@@ -738,15 +743,17 @@ a {
     font-size: 2.5rem;
     font-weight: 200;
     text-align: center;
-
 }
+
+.section-title--blue {
+        color: #2f5572;
+    }
 
 @media (min-width: 530px){
 
 .section-title {
         font-size: 3.75rem;
         font-weight: 300
-
 }
     }
 
@@ -764,8 +771,10 @@ a {
 @media (min-width: 530px){
 
 .section-title__icon {
+            position: relative;
+            top: 12px;
             display: inline-block;
-            margin-right: 1rem;
+            margin-right: .5rem;
             margin-left: 0;
             margin-bottom: 0
     }
